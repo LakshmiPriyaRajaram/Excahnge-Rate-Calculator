@@ -21,9 +21,7 @@ A simple web-based exchange rate calculator built using **HTML, CSS, and JavaScr
 ## 🏗 Usage
 
 1. 👉 **Select the base currency** and target currency.
-2. 📈 **Enter the amount** to convert.
-3. ⏬ **Click the convert button** to get the converted amount instantly.
-
+   
 ---
 
 ## 🤝 Contributing
