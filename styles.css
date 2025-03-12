@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #5fbaa7;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+body{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+p{
+    text-align: center;
+}
+
+.swap{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+    padding: 5px 12px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency select{
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    background: transparent;
+    outline: none;
+}
+
+.currency input{
+    font-size: 30px;
+    border: none;
+    background: transparent;
+    text-align: right;
+    outline: none;
+}
+
+.swap-rate-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
